@@ -17,6 +17,6 @@ function ObtenerEdad(a){
 
 document.body.innerHTML = "<h3>El año en que nacio fue: "+ObtenerEdad(edad);+"</h3>"
 
-
+console.log("Hola "+nombre+" "+apellido+" Usted nacio en el anio: "+ObtenerEdad(edad));
 
 

@@ -9,14 +9,8 @@ prompt("Digite su nombre");
 prompt("Digite su apellido");
 edad =parseInt (prompt("Digite su edad"));
 
-function ObtenerEdad(a){
-    console.log("Hola");
-    return 2022 - a;
 
-}
-
-document.body.innerHTML = "<h3>El año en que nacio fue: "+ObtenerEdad(edad);+"</h3>"
-
-
+añoNacio = 2022 - edad;
+console.log("Hola "+nombre+" "+apellido+"El año en que nacio fue: "+añoNacio);
 
 

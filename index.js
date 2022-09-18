@@ -5,8 +5,8 @@ let añoNacio;
 
 
 
-prompt("Digite su nombre");
-prompt("Digite su apellido");
+nombre = prompt("Digite su nombre");
+apellido = prompt("Digite su apellido");
 edad =parseInt (prompt("Digite su edad"));
 
 function ObtenerEdad(a){

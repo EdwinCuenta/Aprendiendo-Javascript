@@ -18,3 +18,11 @@ let {precio} = producto;
 console.log(precio);
 
 console.log(arreglo);
+
+let total = 0;
+
+arreglo.forEach(preci => {
+    total += preci.precio;
+});
+
+console.log(total);
